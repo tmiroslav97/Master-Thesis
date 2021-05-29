@@ -35,6 +35,7 @@ conda install -y -c anaconda numpy=1.19.2 &&
 conda install -y -c anaconda pandas=1.2.4 &&
 conda install -y -c anaconda openpyxl=3.0.7 &&
 conda install -y -c conda-forge matplotlib=3.4.2 &&
-conda install -y -c anaconda seaborn=0.11.1
+conda install -y -c anaconda seaborn=0.11.1 &&
+conda install -y -c anaconda scikit-learn=0.24.1
 
 printf "\nEvnironment '$name' activated\n"
