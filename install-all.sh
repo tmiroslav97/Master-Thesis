@@ -37,6 +37,7 @@ conda install -y -c anaconda openpyxl=3.0.7 &&
 conda install -y -c conda-forge matplotlib=3.4.2 &&
 conda install -y -c anaconda seaborn=0.11.1 &&
 conda install -y -c anaconda scikit-learn=0.24.1 &&
-conda install -y -c conda-forge imbalanced-learn=0.8.0
+conda install -y -c conda-forge imbalanced-learn=0.8.0 &&
+conda install -y -c anaconda statsmodels=0.12.2
 
 printf "\nEvnironment '$name' activated\n"
